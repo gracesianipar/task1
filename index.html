@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data hari ini</title>
+</head>
+<body>
+    <input id="user_email">
+    <button id="notif">Submite</button>
+    <script>
+        let notif = document.getElementById("notif")
+        notif.onclick = function(){
+            let user_email = document.getElementById("user_email").value 
+            alert("Kami akan memberikan notifikasi ke "+user_email+". Terima kasih")
+        }
+    </script>
+</body>
+</html>
